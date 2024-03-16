@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 0; align-items: center; justify-content: center; background-color: rgba(105, 221, 195, 255); height: 271px; width: 273px;">
+        <ui:VisualElement style="height: 141px; width: 245px; margin-right: 4px; margin-left: 4px; flex-direction: row; position: relative;">
+            <ui:MinMaxSlider picking-mode="Ignore" label="Min/Max Slider" min-value="10" max-value="12" low-limit="-10" high-limit="40" style="margin-right: 8px; align-items: center; height: 136px; width: 238px; flex-grow: 1; flex-shrink: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
